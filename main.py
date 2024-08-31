@@ -34,7 +34,7 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-    channel = bot.get_channel(1140633489520205934) # IDห้อง
+    channel = bot.get_channel(1279026726323880038) # IDห้อง
     text = f"Welcome to the server, {member.mention}!"
 
     emmbed = discord.Embed(title = 'Welcome to the server!',
